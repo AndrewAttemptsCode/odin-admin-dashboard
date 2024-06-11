@@ -52,7 +52,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    background: red;
+    background: white;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 0 30px;
 }
 
 .main-content {
@@ -89,4 +93,22 @@ p, h1, h2, h3, h4, h5, h6 {
 .nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Header */
+
+.search-bar {
+    display: grid;
+    align-items: center;
+}
+
+.search-bar input {
+    height: 2rem;
+    width: 75%;
+    font-size: 100%;
+    border: none;
+    outline-color: blueviolet;
+    border-radius: 50px;
+    padding-left: 1rem;
+    background: rgb(214, 214, 214);
 }
