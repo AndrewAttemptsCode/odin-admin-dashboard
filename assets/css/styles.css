@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* CSS Reset */
+
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
 }
 
 body {
@@ -26,4 +33,25 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #root, #__next {
     isolation: isolate;
+}
+
+/* Layout */
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 4fr;
+}
+
+.sidebar {
+    background: blue;
+    grid-row: 1 / -1;
+}
+
+.header {
+    background: red;
+}
+
+.main-content {
+    background: green;
 }
