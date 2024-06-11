@@ -55,3 +55,26 @@ p, h1, h2, h3, h4, h5, h6 {
 .main-content {
     background: green;
 }
+
+/* Nav */
+
+.dash-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
