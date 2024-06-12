@@ -108,3 +108,19 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-left: 1rem;
     background: rgb(214, 214, 214);
 }
+
+.action-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.action-buttons button {
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    color: white;
+    background: rgba(0, 162, 255, 0.76);
+    font-weight: bold;
+    cursor: pointer;
+}
