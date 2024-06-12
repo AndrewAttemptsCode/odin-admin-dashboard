@@ -56,6 +56,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
     display: grid;
     grid-template-columns: 1fr auto;
+    align-items: center;
     padding: 0 30px;
 }
 
@@ -96,11 +97,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header */
-
-.search-bar {
-    display: grid;
-    align-items: center;
-}
 
 .search-bar input {
     height: 2rem;
