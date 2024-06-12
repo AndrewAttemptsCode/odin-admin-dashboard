@@ -131,3 +131,14 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-items: end;
     gap: 20px;
 }
+
+.user-greeting {
+    display: grid;
+    /* change this later once assets for avatar obtained */
+    grid-template-columns: 1fr 4fr;
+}
+
+.greeting-avatar {
+    grid-row: 1 / 3;
+    background: hotpink;
+}
