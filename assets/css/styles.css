@@ -203,6 +203,11 @@ p, h1, h2, h3, h4, h5, h6 {
     grid-template-rows: repeat(3, 1fr);
 }
 
+.announcements-item {
+    display: grid;
+    align-items: center;
+}
+
 .announcements-item:nth-child(2) {
     border-top: 1px solid black ;
     border-bottom: 1px solid black;
