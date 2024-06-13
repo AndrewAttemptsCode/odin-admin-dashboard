@@ -40,7 +40,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .container {
     height: 100%;
     display: grid;
-    grid-template: 1fr 4fr / 1fr 4fr;
+    /* Change this once assets on the sidebar
+    grid-template: auto 1fr / auto 1fr; */
+    grid-template: auto 1fr / 1fr 5fr;
 }
 
 .sidebar {
@@ -159,7 +161,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1.8rem auto;
     gap: 20px;
 }
 
