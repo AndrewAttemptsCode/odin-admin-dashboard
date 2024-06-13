@@ -64,9 +64,9 @@ p, h1, h2, h3, h4, h5, h6 {
     background: green;
 
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     /* Look into this later for main layout */
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     padding: 30px;
 }
 
@@ -173,7 +173,7 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
 
     display: grid;
-    grid-template-rows: auto 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 .project-card-buttons {
