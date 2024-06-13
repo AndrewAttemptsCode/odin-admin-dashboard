@@ -65,6 +65,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
     display: grid;
     grid-template-columns: 4fr 1fr;
+    /* Look into this later for main layout */
+    grid-template-rows: 1fr 1fr;
     padding: 30px;
 }
 
@@ -149,6 +151,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Main */
 
+/* Your Projects */
+
 .projects {
     grid-row: 1 / 3;
 
@@ -178,4 +182,28 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-items: end;
     align-items: end;
     gap: 10px;
+}
+
+/* Announcements */
+
+.announcements {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.announcements-container {
+    background: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.announcements-item:nth-child(2) {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
 }
