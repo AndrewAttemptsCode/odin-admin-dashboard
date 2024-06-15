@@ -94,10 +94,49 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     font-weight: bold;
     padding-bottom: 1rem;
+
+    position: relative;
+    padding-left: 35px;
+}
+
+.nav li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%) brightness(2);
 }
 
 .primary-nav {
     margin-bottom: 2.5rem;
+}
+
+.primary-nav li:nth-child(1)::before {
+    background-image: url("../images/icons/home.svg");
+}
+
+.primary-nav li:nth-child(2)::before {
+    background-image: url("../images/icons/profile.svg");
+}
+
+.primary-nav li:nth-child(3)::before {
+    background-image: url("../images/icons/messages.svg");
+}
+
+.primary-nav li:nth-child(4)::before {
+    background-image: url("../images/icons/history.svg");
+}
+
+.primary-nav li:nth-child(5)::before {
+    background-image: url("../images/icons/tasks.svg");
+}
+
+.primary-nav li:nth-child(6)::before {
+    background-image: url("../images/icons/communities.svg");
 }
 
 .nav a {
