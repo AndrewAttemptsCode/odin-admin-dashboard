@@ -79,12 +79,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
-.dash-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-}
-
 .nav ul {
     list-style: none;
     padding: 0;
@@ -112,7 +106,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-nav {
-    margin-bottom: 2.5rem;
+    margin: 2.5rem 0;
+}
+
+.dash-logo li {
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+
+.dash-logo li::before {
+    width: 45px;
+    height: 45px;
+    background-image: url("../images/icons/dashboard.svg");
 }
 
 .primary-nav li:nth-child(1)::before {
