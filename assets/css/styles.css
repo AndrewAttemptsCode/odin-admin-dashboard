@@ -163,6 +163,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 
+.search-bar {
+    position: relative;
+}
+
 .search-bar input {
     height: 2rem;
     width: 75%;
@@ -170,8 +174,23 @@ p, h1, h2, h3, h4, h5, h6 {
     border: none;
     outline-color: blueviolet;
     border-radius: 50px;
-    padding-left: 1rem;
+    padding-left: 3rem;
     background: rgb(214, 214, 214);
+}
+
+.search-bar button {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    padding: 0;
+    background: none;
+    border: none;
+    align-items: end;
+}
+
+.search-bar button img {
+    height: 30px;
+    width: 30px;
 }
 
 .action-buttons {
