@@ -139,6 +139,18 @@ p, h1, h2, h3, h4, h5, h6 {
     background-image: url("../images/icons/communities.svg");
 }
 
+.secondary-nav li:nth-child(1)::before {
+    background-image: url("../images/icons/settings.svg");
+}
+
+.secondary-nav li:nth-child(2)::before {
+    background-image: url("../images/icons/support.svg");
+}
+
+.secondary-nav li:nth-child(3)::before {
+    background-image: url("../images/icons/privacy.svg");
+}
+
 .nav a {
     color: white;
     text-decoration: none;
