@@ -240,8 +240,14 @@ p, h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr auto auto auto;
     justify-items: end;
     align-items: end;
-    gap: 10px;
+    gap: 25px;
 }
+
+.project-card-buttons img {
+    height: 25px;
+    width: 25px;
+}
+
 
 /* Announcements */
 
