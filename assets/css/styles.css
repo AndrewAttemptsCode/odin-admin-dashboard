@@ -210,9 +210,20 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .user-login {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr auto auto;
     justify-items: end;
+    align-items: center;
     gap: 20px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.user-notification {
+    width: 30px;
+    height: 30px;
 }
 
 .user-greeting {
