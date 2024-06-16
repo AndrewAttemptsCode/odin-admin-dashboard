@@ -341,7 +341,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .trending-card {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 10px;
+    column-gap: 10px;
     align-items: center;
 }
 
